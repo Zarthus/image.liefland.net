@@ -1,0 +1,9 @@
+{
+    "name": "zarthus/image.liefland.net",
+    "description": "A super simplistic generic direct-link ShareX uploader service.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2"
+    }
+}

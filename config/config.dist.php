@@ -6,7 +6,6 @@ return [
         // Need to generate one? Here's a quick command to do it:
         // $ php -r 'echo bin2hex(random_bytes(64));'
         'HTTP_X_AUTHORIZATION' => 'api key here',
-        'HTTP_USER_AGENT' => 'ShareX',
     ],
     // Path to the directory where files should be stored.
     'uploadDir' => __DIR__ . '/../images/',

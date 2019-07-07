@@ -28,7 +28,7 @@ function sharex_create_filename(string $uploadDir, string $originalFileName, boo
         }
     }
 
-    $namingStrategy = new RandomBytes();
+    $namingStrategy = new Dictionary();
     do {
         $uuid = $namingStrategy->generate();
     } while (file_exists($uploadDir . $prefix . $uuid . '.png'));
